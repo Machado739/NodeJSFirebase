@@ -1,0 +1,4 @@
+2024-10-26 03:01:34.305 [info] Extension host with pid 1383 started
+2024-10-26 03:01:34.978 [info] Eager extensions activated
+2024-10-26 03:06:40.291 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-10-26 03:06:40.292 [info] Extension host with pid 1383 exiting with code 0

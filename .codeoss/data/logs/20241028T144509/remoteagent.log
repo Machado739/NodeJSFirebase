@@ -1,0 +1,13 @@
+2024-10-28 14:45:09.588 [info] 
+
+
+
+
+2024-10-28 14:45:09.606 [info] Extension host agent started.
+2024-10-28 14:45:14.038 [info] [127.0.0.1][d30db37e][ManagementConnection] New connection established.
+2024-10-28 14:45:14.166 [info] [127.0.0.1][bdf7e723][ExtensionHostConnection] New connection established.
+2024-10-28 14:45:15.006 [info] [127.0.0.1][bdf7e723][ExtensionHostConnection] <1216> Launched Extension Host Process.
+2024-10-28 15:13:20.162 [info] [127.0.0.1][1f54de56][ExtensionHostConnection] New connection established.
+2024-10-28 15:13:20.163 [info] [127.0.0.1][d131c206][ManagementConnection] New connection established.
+2024-10-28 15:13:20.171 [info] [127.0.0.1][1f54de56][ExtensionHostConnection] <1910> Launched Extension Host Process.
+2024-10-28 15:18:20.509 [info] [127.0.0.1][bdf7e723][ExtensionHostConnection] <1216> Extension Host Process exited with code: 0, signal: null.

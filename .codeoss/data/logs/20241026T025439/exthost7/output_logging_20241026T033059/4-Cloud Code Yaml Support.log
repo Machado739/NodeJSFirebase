@@ -1,0 +1,15 @@
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: ENOENT: no such file or directory, open '/home/a20490715/proyecto/nodejs-af02a-firebase-adminsdk-ghoen-37314e3803.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/a20490715/proyecto/nodejs-af02a-firebase-adminsdk-ghoen-37314e3803.json'
+}
+
+Node.js v18.18.2
+[Error - 4:06:32 AM] Server process exited with code 1.
+[Info  - 4:06:32 AM] Connection to server got closed. Server will restart.
+true

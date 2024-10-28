@@ -1,0 +1,123 @@
+2024-10-28 15:13:27.267 [info] Log level: Info
+2024-10-28 15:13:27.267 [info] Validating found git in: "git"
+2024-10-28 15:13:27.267 [info] Using git "2.43.0" from "git"
+2024-10-28 15:13:27.296 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-28 15:13:27.296 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.312 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-28 15:13:27.312 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.329 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-28 15:13:27.329 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.343 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-28 15:13:27.343 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.360 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-28 15:13:27.360 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.399 [info] > git rev-parse --show-toplevel [21ms]
+2024-10-28 15:13:27.399 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.415 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-28 15:13:27.416 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.430 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-28 15:13:27.431 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.445 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-28 15:13:27.445 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:27.460 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-28 15:13:27.460 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:13:30.729 [info] > git rev-parse --show-toplevel [18ms]
+2024-10-28 15:13:30.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-28 15:18:04.239 [info] > git init -b main [25ms]
+2024-10-28 15:18:04.256 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-28 15:18:04.273 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-28 15:18:04.289 [info] Open repository: /home/a20490715
+2024-10-28 15:18:04.326 [info] No remotes found in the git config file.
+2024-10-28 15:18:04.327 [info] > git config --get commit.template [19ms]
+2024-10-28 15:18:04.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-28 15:18:04.328 [warning] No such branch: main.
+2024-10-28 15:18:04.678 [info] > git status -z -uall [334ms] (cancelled)
+2024-10-28 15:18:04.792 [info] > git show --textconv :proyecto/server.js [18ms]
+2024-10-28 15:18:04.792 [info] > git ls-files --stage -- /home/a20490715/proyecto/server.js [2ms]
+2024-10-28 15:18:05.167 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 15:18:05.818 [info] > git ls-files --stage -- /home/a20490715/proyecto/server.js [1ms]
+2024-10-28 15:18:05.913 [info] > git show --textconv :proyecto/server.js [2ms]
+2024-10-28 15:18:12.332 [info] > git config --get commit.template [64ms]
+2024-10-28 15:18:12.367 [info] No remotes found in the git config file.
+2024-10-28 15:18:12.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2024-10-28 15:18:12.402 [warning] No such branch: main.
+2024-10-28 15:18:15.300 [info] > git status -z -uall [2870ms] (cancelled)
+2024-10-28 15:18:36.840 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 15:19:05.251 [info] > git check-ignore -v -z --stdin [5ms]
+2024-10-28 15:19:39.500 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-28 15:19:41.139 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-28 15:19:45.020 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-28 15:19:46.690 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-28 15:19:48.408 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-28 15:19:50.369 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-28 15:19:50.970 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-28 15:19:54.356 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-28 15:19:57.815 [info] > git add -A -- . [70510ms]
+2024-10-28 15:19:58.716 [info] > git -c user.useConfigOnly=true commit --quiet [882ms]
+2024-10-28 15:19:58.716 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-10-28 15:19:58.736 [info] > git config --get-all user.name [1ms]
+2024-10-28 15:19:58.775 [info] No remotes found in the git config file.
+2024-10-28 15:19:58.776 [info] > git config --get commit.template [21ms]
+2024-10-28 15:19:58.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-28 15:19:58.777 [warning] No such branch: main.
+2024-10-28 15:20:01.815 [info] > git status -z -uall [3020ms] (cancelled)
+2024-10-28 15:20:26.826 [info] > git check-ignore -v -z --stdin [11ms]
+2024-10-28 15:20:41.462 [info] > git -c user.useConfigOnly=true commit --quiet [67ms]
+2024-10-28 15:20:41.462 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-10-28 15:20:41.482 [info] > git config --get-all user.name [1ms]
+2024-10-28 15:20:41.522 [info] No remotes found in the git config file.
+2024-10-28 15:20:41.523 [info] > git config --get commit.template [21ms]
+2024-10-28 15:20:41.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-28 15:20:41.523 [warning] No such branch: main.
+2024-10-28 15:20:44.616 [info] > git status -z -uall [3075ms] (cancelled)
+2024-10-28 15:21:55.394 [info] > git ls-files --stage -- /home/a20490715/proyecto/server.js [9ms]
+2024-10-28 15:21:55.416 [info] > git cat-file -s 9b04cbcbbf26ae0e90154ddc8670e63d1d48bf64 [3ms]
+2024-10-28 15:21:57.163 [info] > git show --textconv :proyecto/server.js [11ms]
+2024-10-28 15:21:57.460 [info] > git ls-files --stage -- /home/a20490715/proyecto/server.js [9ms]
+2024-10-28 15:21:57.482 [info] > git cat-file -s 9b04cbcbbf26ae0e90154ddc8670e63d1d48bf64 [2ms]
+2024-10-28 15:23:37.736 [info] > git ls-files --stage -- /home/a20490715/proyecto/server.js [9ms]
+2024-10-28 15:23:37.758 [info] > git cat-file -s 9b04cbcbbf26ae0e90154ddc8670e63d1d48bf64 [2ms]
+2024-10-28 15:23:37.826 [info] > git show --textconv :proyecto/server.js [8ms]
+2024-10-28 15:23:41.121 [info] > git check-ignore -v -z --stdin [47ms]
+2024-10-28 15:23:43.600 [info] > git show --textconv :.git/COMMIT_EDITMSG [23ms]
+2024-10-28 15:23:43.606 [info] > git ls-files --stage -- /home/a20490715/.git/COMMIT_EDITMSG [7ms]
+2024-10-28 15:23:43.883 [info] > git check-ignore -v -z --stdin [9ms]
+2024-10-28 15:29:35.729 [info] > git ls-files --stage -- /home/a20490715/.git/COMMIT_EDITMSG [8ms]
+2024-10-28 15:29:35.845 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2024-10-28 15:31:55.132 [info] > git ls-files --stage -- /home/a20490715/.git/COMMIT_EDITMSG [8ms]
+2024-10-28 15:31:55.199 [info] > git show --textconv :.git/COMMIT_EDITMSG [7ms]

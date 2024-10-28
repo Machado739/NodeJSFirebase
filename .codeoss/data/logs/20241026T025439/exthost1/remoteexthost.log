@@ -1,0 +1,3 @@
+2024-10-26 02:56:08.562 [info] Extension host with pid 1238 started
+2024-10-26 03:02:07.612 [info] Extension host terminating: received terminate message from renderer
+2024-10-26 03:02:07.615 [info] Extension host with pid 1238 exiting with code 0
